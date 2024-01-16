@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Staff Track-Employee</title>
+</head>
+<body>
+
+    <!-- nav bar -->
+    <header>
+        <nav>
+            <a href="./employee.html">Employee</a>
+            <a href="../index.html">Login</a>
+
+        </nav>
+    </header>
+    <!-- mid section for filter sort -->
+    <section>
+     <div>
+        <select id="sort">
+            <option value="">Sort employees by salary</option>
+            <option value="asc">Ascending / Low to High</option>
+            <option value="desc">Descending / High to Low</option>
+        </select>
+     </div>
+     <div>
+        <select id="filterbydepartment">
+            <option value="">Filter employees by department</option>
+            <option value="engineering">Engineering</option>
+            <option value="marketing">Marketing</option>
+            <option value="operations">Operations</option>
+            <option value="finance">Finance</option>
+            <option value="hr">HR</option>
+        </select>
+     </div>
+     <div>
+        <select id="filterbygender">
+            <option value="">Filter employees by gender</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+           
+        </select>
+     </div>
+    </section>
+    <!-- body - employee data -->
+
+    <section id="employeedata">
+
+    </section>
+
+    <!-- footer section for pagination -->
+    <section id="pagination">
+
+    </section>
+    <script src="../script/employee.js"></script>
+</body>
+</html>
